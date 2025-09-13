@@ -1,0 +1,60 @@
+/*  Base Layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background: #b30000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Buttons */
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #b30000;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #800000;
+  transform: scale(1.05);
+}
+
+/* Game Area */
+#game-area {
+  padding: 1rem;
+  border: 2px dashed #b30000;
+  border-radius: 10px;
+  width: 60%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
