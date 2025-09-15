@@ -1,4 +1,0 @@
-SDEV 265
-TEAM RED PROJECT
-
-Gag Game Website
